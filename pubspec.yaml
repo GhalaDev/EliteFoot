@@ -1,0 +1,51 @@
+name: flutter_application_5
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.17
+  cupertino_icons: ^1.0.8
+  flutter_test:
+    sdk: flutter
+  # قم بحذف السطر التالي:
+  # charts_flutter: ^0.12.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/account_type_bg.png
+    - assets/logo_elite.png
+    - assets/bg_elite.png
+    - assets/fonts/StackSansHeadline-VariableFont_wght.ttf
+    - assets/player_image.jpg
+    - assets/plan_icon.png
+    - assets/progress_icon.png
+    - assets/coach_notes_icon.png
+    - assets/image 47.png
+    - assets/image6.png
+    - assets/injury_player_image.png
+    - assets/xabi_alonso_image.png
+    - assets/Screenshot (865).png # تأكد من إضافة المسار الصحيح
+    - assets/progress_bar_image.png
+    - assets/image_17.png
+    - assets/bellingham.jpg
+    - assets/vinicius.jpg
+    - assets/brahim.jpg
+    - assets/performance.png
+
+
+
+  fonts:
+    - family: StackSansHeadline
+      fonts:
+        - asset: assets/fonts/StackSansHeadline-VariableFont_wght.ttf
